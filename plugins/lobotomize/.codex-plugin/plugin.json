@@ -1,0 +1,42 @@
+{
+  "name": "lobotomize",
+  "version": "0.1.6+codex.20260609152444",
+  "description": "Review, strengthen, and approve curated project memory for Codex workspaces.",
+  "author": {
+    "name": "Ikala",
+    "url": "https://x.com/ikaladev"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "memory",
+    "project-memory",
+    "codex",
+    "context",
+    "team-memory",
+    "ikala"
+  ],
+  "interface": {
+    "displayName": "Lobotomize",
+    "shortDescription": "Fortalece la memoria de proyecto.",
+    "longDescription": "Lobotomize revisa la memoria existente del proyecto, muestra un resumen, pregunta antes de crear o mejorar memoria, prepara propuestas desde conversaciones anteriores y aplica cambios s\u00f3lo despu\u00e9s de aprobaci\u00f3n expl\u00edcita.",
+    "developerName": "Ikala",
+    "category": "Productivity",
+    "capabilities": [
+      "Curaci\u00f3n de memoria de proyecto",
+      "Inspecci\u00f3n de hilos de Codex",
+      "Exportaci\u00f3n de memoria para equipo"
+    ],
+    "defaultPrompt": [
+      "lobotomize",
+      "lobotomize este proyecto",
+      "mostrar memoria del proyecto"
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/screenshot-flow.png",
+      "./assets/screenshot-card.png"
+    ],
+    "brandColor": "#2F80ED"
+  }
+}

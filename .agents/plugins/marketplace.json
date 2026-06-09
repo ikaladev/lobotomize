@@ -1,0 +1,20 @@
+{
+  "name": "ikala",
+  "interface": {
+    "displayName": "Ikala"
+  },
+  "plugins": [
+    {
+      "name": "lobotomize",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lobotomize"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
