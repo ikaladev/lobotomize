@@ -1,16 +1,26 @@
 {
   "name": "lobotomize",
-  "version": "0.1.6+codex.20260609152444",
-  "description": "Review, strengthen, and approve curated project memory for Codex workspaces.",
+  "version": "0.2.0",
+  "description": "Inspect, curate, approve, and export project memory across Codex and other AI coding tools.",
   "author": {
     "name": "Ikala",
     "url": "https://x.com/ikaladev"
   },
+  "license": "MIT",
   "skills": "./skills/",
   "keywords": [
     "memory",
     "project-memory",
     "codex",
+    "claude",
+    "cursor",
+    "opencode",
+    "gemini",
+    "qwen",
+    "windsurf",
+    "cline",
+    "continue",
+    "copilot",
     "context",
     "team-memory",
     "ikala"
@@ -18,18 +28,22 @@
   "interface": {
     "displayName": "Lobotomize",
     "shortDescription": "Fortalece la memoria de proyecto.",
-    "longDescription": "Lobotomize revisa la memoria existente del proyecto, muestra un resumen, pregunta antes de crear o mejorar memoria, prepara propuestas desde conversaciones anteriores y aplica cambios s\u00f3lo despu\u00e9s de aprobaci\u00f3n expl\u00edcita.",
+    "longDescription": "Lobotomize revisa la memoria existente del proyecto, detecta reglas y archivos de contexto de varias herramientas de IA, fusiona memorias del mismo proyecto en una vista estructurada, prepara propuestas y exportaciones, y aplica cambios s\u00f3lo despu\u00e9s de aprobaci\u00f3n expl\u00edcita.",
     "developerName": "Ikala",
     "category": "Productivity",
     "capabilities": [
       "Curaci\u00f3n de memoria de proyecto",
+      "Detecci\u00f3n de reglas multi-herramienta",
+      "Fusi\u00f3n estructurada de memorias del mismo proyecto",
+      "Exportaci\u00f3n aprobada a AGENTS.md, Claude, Cursor, Gemini y m\u00e1s",
       "Inspecci\u00f3n de hilos de Codex",
       "Exportaci\u00f3n de memoria para equipo"
     ],
     "defaultPrompt": [
       "lobotomize",
       "lobotomize este proyecto",
-      "mostrar memoria del proyecto"
+      "mostrar memoria del proyecto",
+      "exportar memoria del proyecto"
     ],
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/logo.png",

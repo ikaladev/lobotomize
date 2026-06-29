@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+*.log
+
+# Local curated memory for this repository. Do not publish project-specific memory.
+.project-memory/
+
+# Submission/review drafts that are not part of the public marketplace package.
+OPENAI_CURATION_SUBMISSION.md
+OPENAI_CURATED_DIRECTORY_REQUEST.md
