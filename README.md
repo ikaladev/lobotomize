@@ -15,7 +15,7 @@ Research, product planning, and release notes:
 - [Lobotomize v2 product spec](docs/v2/lobotomize-v2-spec.md)
 - [Changelog](CHANGELOG.md)
 
-## Codex Marketplace
+## Install
 
 This repository is a Codex plugin marketplace. The marketplace catalog lives at:
 
@@ -29,14 +29,14 @@ The catalog exposes the plugin from:
 plugins/lobotomize
 ```
 
-### Install From A Published Repository
+### Install From GitHub
 
-Once this repository is published to a reachable Git URL, people can add it to Codex from the plugin marketplace picker.
+Add this marketplace source to Codex:
 
-Expected install URL format:
+Marketplace URL:
 
 ```text
-https://github.com/<owner>/<repo>.git
+https://github.com/ikaladev/lobotomize.git
 ```
 
 Codex app:
@@ -44,20 +44,20 @@ Codex app:
 1. Open Plugins.
 2. Open the marketplace/source menu.
 3. Choose Add More.
-4. Paste the repository URL.
+4. Paste the marketplace URL.
 5. Select the Ikala marketplace.
 6. Install Lobotomize.
 
 Codex CLI:
 
 ```text
-codex plugin marketplace add https://github.com/<owner>/<repo>.git --sparse .agents/plugins --sparse plugins
+codex plugin marketplace add https://github.com/ikaladev/lobotomize.git --sparse .agents/plugins --sparse plugins
 codex plugin add lobotomize@ikala
 ```
 
-### Test Locally
+### Local Development Install
 
-From this repository root:
+Use this only when testing a local checkout before publishing changes:
 
 ```text
 codex plugin marketplace add /absolute/path/to/lobotomize
